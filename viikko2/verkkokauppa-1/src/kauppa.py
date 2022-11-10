@@ -1,11 +1,13 @@
+from varasto import varasto as default_varasto
+from pankki import pankki as default_pankki
+from viitegeneraattori import viitegeneraattori as default_viitegeneraattori
 from ostoskori import Ostoskori
 
-
 class Kauppa:
-    def __init__(self, varasto_instance, pankki_instance, viitegeneraattori_instance):
-        self._varasto = varasto_instance
-        self._pankki = pankki_instance
-        self._viitegeneraattori = viitegeneraattori_instance
+    def __init__(self, varasto=default_varasto, pankki=default_pankki, viitegeneraattori=default_viitegeneraattori):
+        self._varasto = varasto
+        self._pankki = pankki
+        self._viitegeneraattori = viitegeneraattori
         self._kaupan_tili = "33333-44455"
 
     def aloita_asiointi(self):
