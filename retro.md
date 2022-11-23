@@ -3,4 +3,4 @@ Start, Stop, Continue, More Of, Less Of Wheel on retrospektiivitekniikka, jolla 
 Glad, Sad, Mad on samanlainen retrospektiivitekniikka, mutta tiimin jäsenet kirjoittavat itsenäisesti lapuille, mistä asioista sprintin aikana he olivat iloisia, mitkä asiat olivat ikäviä, ja mitkä tiimistä riippumattomat asiat vaivasivat sprintin aikana. Tämän jälkeen tiimin jäsenet äänestävät asioiden tärkeydestä, jonka jälkeen asioita käydään yhdessä läpi tärkeysjärjestyksessä tärkeimmästä vähiten tärkeään, tai kunnes retron aikaraja tulee vastaan.
 
 muutos1
-
+muutos2
