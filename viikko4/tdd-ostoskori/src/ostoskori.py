@@ -23,13 +23,13 @@ class Ostoskori:
         return yhteishinta
 
     def lisaa_tuote(self, lisattava: Tuote):
-        ostos = Ostos(lisattava)
         loytyi = False
         for tuote in self._kori:
-            if tuote.tuotteen_nimi() == ostos.tuotteen_nimi():
+            if tuote.tuotteen_nimi() == lisattava.nimi():
                 tuote.muuta_lukumaaraa(1)
                 loytyi = True
         if not loytyi:
+            ostos = Ostos(lisattava)
             self._kori.append(ostos)
 
     def poista_tuote(self, poistettava: Tuote):
